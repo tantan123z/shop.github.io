@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 200px; /* Dành cho footer */
+    position: relative;
+    min-height: 155vh;
+}
+
+.thanhthongbao {
+    background-color: rgb(75, 105, 85);
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    max-width: 2000px;
+    color: #d9e4dc;
+    overflow: hidden;
+    height: 80px;
+}
+
+.bagach {
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    color: #e0dddd;
+    font-size: 2rem;
+}
+
+#typewriterContainer {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.footer-column h3 {
+    color: #d9e4dc;
+    font-size: 1.2rem;
+}
+
+.footer-column p {
+    color: #d9e4dc;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px; 
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1;
+    overflow-x: hidden;
+   
+}
+
+
+.content-container {
+    margin-left: 2x; 
+}
+
+
+
+.sidebar p{
+    text-align: center;
+}
+.sidebar img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+
+.sidebar ul li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.content-container {
+    flex: 1;
+   
+    
+}
+
+.content {
+    display: none;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.product {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #c8d4e0;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.rut-tien-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rut-tien-form input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #eee5e5;
+    border-radius: 5px;
+    background-color: #e7dede;
+    color: #eee8e8;
+}
+
+.rut-tien-form button {
+    background-color: #d30f0f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+}
+
+.notification button {
+    background-color: white;
+    color: #28a745;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.notification button:hover {
+    background-color: #ddd;
+}
